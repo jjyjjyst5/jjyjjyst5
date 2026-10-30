@@ -38,7 +38,7 @@ Builds round-robin schedules that maximize partner and opponent variety. For mix
 
 **[See the demo](https://samantha-medical.com/)**
 
-<img src="images/samantha-home.png" width="480" alt="Samantha website">
+<img src="images/samantha-home.png" width="600" alt="Samantha website">
 
 A voice agent for medical practices that answers after hours, steps in when the front desk is busy, and follows up with referred patients to get visits booked. I built it as a solo founder: a HIPAA-compliant voice pipeline with telephony, custom tool calls, and validation. Built with Gemini LLMs, Azure telephony, and Python, developed with Claude Code.
 
