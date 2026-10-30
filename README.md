@@ -10,35 +10,35 @@ Most of my code lives in private repos. Source is available on request.
 
 ### Kwik Kiwi - pickleball round-robin scheduler
 
-**[Try it live](https://quick-kiwi-round-robin.vercel.app)**
+**[Try it live](https://quick-kiwi-round-robin.vercel.app)** · React, TypeScript, Supabase, Vercel · 530+ unit tests plus Playwright end-to-end tests
+
+Builds round-robin schedules that maximize partner and opponent variety. For mixed doubles with prime-power player counts, a Galois field construction guarantees every man partners with every woman exactly once; otherwise simulated annealing searches partnerships and court groupings together. Runs offline on one phone, or as a public tournament players join by QR code.
 
 <p>
-  <img src="images/kiwi-splash.jpg" width="190" alt="Kwik Kiwi splash screen">
-  <img src="images/kiwi-roster.png" width="190" alt="Pasted roster with automatic gender sorting; uncertain names flagged">
-  <img src="images/kiwi-rounds.png" width="190" alt="Round view with court cards and scoring">
-  <img src="images/kiwi-leaderboard.png" width="190" alt="Live leaderboard">
+  <img src="images/kiwi-splash.jpg" width="170" alt="Kwik Kiwi splash screen">
+  <img src="images/kiwi-rounds.png" width="170" alt="Round view with court cards and scoring">
+  <img src="images/kiwi-analytics.png" width="170" alt="Schedule optimality scores">
 </p>
 
-Builds round-robin schedules that maximize partner and opponent variety. For mixed doubles with prime-power player counts, a Galois field construction guarantees every man partners with every woman exactly once. For other counts and open doubles, simulated annealing searches partnerships and court groupings together.
-
-<img src="images/kiwi-partner-matrix.png" width="560" alt="Partner frequency matrix, all ones">
+<img src="images/kiwi-partner-matrix.png" width="440" alt="Partner frequency matrix, all ones">
 
 *8 men, 8 women, 8 rounds: every man partners every woman exactly once.*
 
-<img src="images/kiwi-optimality.png" width="560" alt="Schedule optimality breakdown">
-
-*Every schedule is scored on partner and opponent variety, and the app shows exactly where it falls short.*
-
-- Runs a local game offline, or a public tournament that players join from their phones by code or QR
-- Live scoring, court announcements with text-to-speech, analytics, and a leaderboard
-- React 19, TypeScript, Vite, Zustand, Supabase, Vercel
-- About 290 unit and component tests plus Playwright end-to-end tests, with CI on every pull request
+<details>
+<summary>More screenshots</summary>
+<br>
+<p>
+  <img src="images/kiwi-roster.png" width="170" alt="Pasted roster with automatic gender sorting; uncertain names flagged">
+  <img src="images/kiwi-leaderboard.png" width="170" alt="Live leaderboard">
+</p>
+<img src="images/kiwi-optimality-ring.png" width="480" alt="Schedule optimality breakdown">
+</details>
 
 ### Samantha - AI medical receptionist
 
 **[See the demo](https://samantha-medical.com/)**
 
-<img src="images/samantha-home.png" width="600" alt="Samantha website">
+<img src="images/samantha-home.png" width="480" alt="Samantha website">
 
 A voice agent for medical practices that answers after hours, steps in when the front desk is busy, and follows up with referred patients to get visits booked. I built it as a solo founder: a HIPAA-compliant voice pipeline with telephony, custom tool calls, and validation. Built with Gemini LLMs, Azure telephony, and Python, developed with Claude Code.
 
