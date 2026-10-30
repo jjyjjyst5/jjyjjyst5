@@ -14,19 +14,18 @@ Most of my code lives in private repos. Source is available on request.
 
 Builds round-robin schedules that maximize partner and opponent variety. For mixed doubles with prime-power player counts, a Galois field construction guarantees every man partners with every woman exactly once; otherwise simulated annealing searches partnerships and court groupings together. Runs offline on one phone, or as a public tournament players join by QR code.
 
-<p>
-  <img src="images/kiwi-splash.jpg" width="170" alt="Kwik Kiwi splash screen">
-  <img src="images/kiwi-rounds.png" width="170" alt="Round view with court cards and scoring">
-  <img src="images/kiwi-analytics.png" width="170" alt="Schedule optimality scores">
-</p>
-
-<img src="images/kiwi-partner-matrix.png" width="440" alt="Partner frequency matrix, all ones">
+<img src="images/kiwi-partner-matrix.png" width="380" alt="Partner frequency matrix, all ones">
 
 *8 men, 8 women, 8 rounds: every man partners every woman exactly once.*
 
 <details>
 <summary>More screenshots</summary>
 <br>
+<p>
+  <img src="images/kiwi-splash.jpg" width="170" alt="Kwik Kiwi splash screen">
+  <img src="images/kiwi-rounds.png" width="170" alt="Round view with court cards and scoring">
+  <img src="images/kiwi-analytics.png" width="170" alt="Schedule optimality scores">
+</p>
 <p>
   <img src="images/kiwi-roster.png" width="170" alt="Pasted roster with automatic gender sorting; uncertain names flagged">
   <img src="images/kiwi-leaderboard.png" width="170" alt="Live leaderboard">
