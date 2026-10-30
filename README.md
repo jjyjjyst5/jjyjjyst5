@@ -13,19 +13,19 @@ Most of my code lives in private repos. Source is available on request.
 **[Try it live](https://quick-kiwi-round-robin.vercel.app)**
 
 <p>
-  <img src="images/kwik-kiwi-splash.jpg" width="190" alt="Kwik Kiwi splash screen">
-  <img src="images/kwik-kiwi-roster.png" width="190" alt="Pasted roster with automatic gender sorting; uncertain names flagged">
-  <img src="images/kwik-kiwi-rounds.png" width="190" alt="Round view with court cards and scoring">
-  <img src="images/kwik-kiwi-leaderboard.png" width="190" alt="Live leaderboard">
+  <img src="images/kiwi-splash.jpg" width="190" alt="Kwik Kiwi splash screen">
+  <img src="images/kiwi-roster.png" width="190" alt="Pasted roster with automatic gender sorting; uncertain names flagged">
+  <img src="images/kiwi-rounds.png" width="190" alt="Round view with court cards and scoring">
+  <img src="images/kiwi-leaderboard.png" width="190" alt="Live leaderboard">
 </p>
 
 Builds round-robin schedules that maximize partner and opponent variety. For mixed doubles with prime-power player counts, a Galois field construction guarantees every man partners with every woman exactly once. For other counts and open doubles, simulated annealing searches partnerships and court groupings together.
 
-<img src="images/kwik-kiwi-partner-matrix.png" width="560" alt="Partner frequency matrix, all ones">
+<img src="images/kiwi-partner-matrix.png" width="560" alt="Partner frequency matrix, all ones">
 
 *8 men, 8 women, 8 rounds: every man partners every woman exactly once.*
 
-<img src="images/kwik-kiwi-optimality.png" width="560" alt="Schedule optimality breakdown">
+<img src="images/kiwi-optimality.png" width="560" alt="Schedule optimality breakdown">
 
 *Every schedule is scored on partner and opponent variety, and the app shows exactly where it falls short.*
 
